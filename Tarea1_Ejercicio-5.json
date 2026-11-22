@@ -1,0 +1,48 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Enquesta satisfacció FP",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Què milloraries de l’FP?",
+          "tipus": "text_lliure"
+        },
+        {
+          "ordre": 2,
+          "text": "Quina assignatura t’agrada més?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Programació",
+            "Llenguatge_marques",
+            "Base_dades"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Hàbits d’estudi i eines",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quin editor de codi fas servir més?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Netbeans",
+            "IntellijiIdea",
+            "Visual Studio"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Quantes hores estudies a la setmana?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
